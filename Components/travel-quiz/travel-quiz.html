@@ -16,7 +16,7 @@
     />
     <link rel="stylesheet" href="https://style-sheet.netlify.app/styles.css" />
     <link rel="stylesheet" href="../../styles.css" />
-    <link rel="stylesheet" href="./quizpage.css" />
+    <link rel="stylesheet" href="./travel-quiz.css" />
     <title>Home</title>
   </head>
   <body>
@@ -56,52 +56,72 @@
         </ul>
       </nav>
     </header>
-    <main class="quiz-main">
-      <div class="card-container">
-        <div class="card-vertical">
-          <div class="image-container">
-            <img class="image" src="../../assets/images/travel_img.jpg" />
-          </div>
-          <div class="card-desc">
-            <div class="card-header">
-              <h2 class="font-size-md">Travel</h2>
-              <p class="font-size-rg">
-                Take part in the amazing quiz and test your knowledge in Travel
-              </p>
-            </div>
-            <div class="btn-container">
-              <a
-                class="quiz-links"
-                href="../../Components/travel-quiz/travel-quiz.html"
-              >
-                <button class="btn btn-primary">Take Quiz</button>
-              </a>
-            </div>
-          </div>
+    <main class="quizzes-main">
+      <h1 class="quiz-title font-size-2xl text-center text-red-600">
+        TRAVEL QUIZ
+      </h1>
+      <div class="quiz-card">
+        <div class="display-flex justify-content-space-between">
+          <p class="font-size-lg">
+            <span class="font-size-xl font-weight-700">1</span> / 2
+          </p>
+          <p class="font-size-lg">
+            Score :
+            <span class="font-size-xl font-weight-700">0</span>
+          </p>
         </div>
-
-        <div class="card-vertical">
-          <div class="image-container">
-            <img class="image" src="../../assets/images/food_img.jpeg" />
-          </div>
-          <div class="card-desc">
-            <div class="card-header">
-              <h2 class="font-size-md">Food</h2>
-              <p class="font-size-rg">
-                Take part in the amazing quiz and test your knowledge in Food
-              </p>
-            </div>
-            <div class="btn-container">
-              <a
-                class="quiz-links"
-                href="../../Components/food-quiz/food-quiz.html"
-              >
-                <button class="btn btn-primary">Take Quiz</button>
-              </a>
-            </div>
+        <div class="question">
+          <p class="font-size-lg font-weight-700">
+            Which of the following is the largest country?
+          </p>
+          <div class="answers">
+            <button
+              class="btn btn-secondary bg-blueblack-300 text-blueblack-900"
+            >
+              India
+            </button>
+            <button class="btn btn-danger">Australia</button>
+            <button
+              class="btn btn-secondary bg-blueblack-300 text-blueblack-900"
+            >
+              China
+            </button>
+            <button class="btn btn-success">Russia</button>
           </div>
         </div>
       </div>
+
+      <div class="quiz-card">
+        <div class="display-flex justify-content-space-between">
+          <p class="font-size-lg">
+            <span class="font-size-xl font-weight-700">2</span> / 2
+          </p>
+          <p class="font-size-lg">
+            Score :
+            <span class="font-size-xl font-weight-700">0</span>
+          </p>
+        </div>
+        <div class="question">
+          <p class="font-size-lg font-weight-700">
+            Which of the following is the smallest country?
+          </p>
+          <div class="answers">
+            <button
+              class="btn btn-secondary bg-blueblack-300 text-blueblack-900"
+            >
+              Nepal
+            </button>
+            <button class="btn btn-success">Vatican City</button>
+            <button
+              class="btn btn-secondary bg-blueblack-300 text-blueblack-900"
+            >
+              Bangladesh
+            </button>
+            <button class="btn btn-danger">Russia</button>
+          </div>
+        </div>
+      </div>
+      <button class="btn btn-primary">Submit</button>
     </main>
     <footer class="footer-section">
       <a href="../../index.html">
