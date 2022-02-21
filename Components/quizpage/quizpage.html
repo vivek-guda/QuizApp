@@ -15,7 +15,8 @@
       href="//use.fontawesome.com/releases/v5.0.7/css/all.css"
     />
     <link rel="stylesheet" href="https://style-sheet.netlify.app/styles.css" />
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="../../styles.css" />
+    <link rel="stylesheet" href="./quizpage.css" />
     <title>Home</title>
   </head>
   <body>
@@ -23,12 +24,12 @@
       <div class="header-section">
         <i class="fas fa-bars menu"></i>
         <div class="header-title">
-          <a href="#">
+          <a href="../../index.html">
             <h1 class="header-logo">Quiz</h1>
           </a>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Dashboard</a></li>
+            <li><a href="../../index.html">Home</a></li>
+            <li><a href="../../index.html">Dashboard</a></li>
           </ul>
         </div>
       </div>
@@ -40,14 +41,14 @@
         <ul class="display-flex align-items-center">
           <li>
             <a
-              href="./Components/signup/signup.html"
+              href="../../Components/signup/signup.html"
               class="header-links font-weight-700"
               >Signup</a
             >
           </li>
           <li>
             <a
-              href="./Components/login/login.html"
+              href="../../Components/login/login.html"
               class="header-links font-weight-700"
               >Login</a
             >
@@ -55,27 +56,49 @@
         </ul>
       </nav>
     </header>
-    <main class="home-main">
-      <div class="home-content">
-        <h1 class="main-title font-size-3xl">Welcome to Quiz</h1>
-        <p class="main-desc font-size-xl">Bored? Want to have fun?</p>
-        <p class="main-desc font-size-xl">
-          Participate in the quizzes handpicked for you
-        </p>
-        <a href="./Components/quizpage/quizpage.html" class="main-btn">
-          <button class="btn btn-primary btn-lg">Explore Quizzes</button>
-        </a>
-      </div>
-      <div class="hero-img-cont">
-        <img
-          class="hero-img image-responsive"
-          src="./assets/images/quiz.jpg"
-          alt=""
-        />
+    <main class="quiz-main">
+      <div class="card-container">
+        <div class="card-vertical">
+          <div class="image-container">
+            <img class="image" src="../../assets/images/travel_img.jpg" />
+          </div>
+          <div class="card-desc">
+            <div class="card-header">
+              <h2 class="font-size-md">Travel</h2>
+              <p class="font-size-rg">
+                Take part in the amazing quiz and test your knowledge in Travel
+              </p>
+            </div>
+            <div class="btn-container">
+              <a class="quiz-links" href="../../Components/quiz1/quiz1.html">
+                <button class="btn btn-primary">Take Quiz</button>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-vertical">
+          <div class="image-container">
+            <img class="image" src="../../assets/images/food_img.jpeg" />
+          </div>
+          <div class="card-desc">
+            <div class="card-header">
+              <h2 class="font-size-md">Food</h2>
+              <p class="font-size-rg">
+                Take part in the amazing quiz and test your knowledge in Food
+              </p>
+            </div>
+            <div class="btn-container">
+              <a class="quiz-links" href="../../Components/quiz2/quiz2.html">
+                <button class="btn btn-primary">Take Quiz</button>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
     <footer class="footer-section">
-      <a href="#">
+      <a href="../../index.html">
         <h2 class="header-logo font-size-xl">Quiz</h2>
       </a>
       <div class="footer-links">
